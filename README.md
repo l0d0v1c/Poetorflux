@@ -1,6 +1,6 @@
-# Poetor
+# PoetorFlux
 
-Générateur de poésie française par réseau de neurones récurrent (2018).
+Générateur de poésie française par réseau de neurones récurrent (2018). (Essayez-ici)[https://l0d0v1c.github.io/Poetorflux]
 
 Projet antérieur à l'essor des Transformers. Là où les LLM modernes (GPT, Claude, LLaMA) utilisent des architectures Transformer avec des milliards de paramètres et tokenisent le texte en sous-mots, Poetor prend le chemin inverse : un petit LSTM de **3 millions de paramètres** qui génère de la poésie **caractère par caractère**.
 
@@ -30,7 +30,7 @@ Le modèle n'a aucune notion de mot, de grammaire ou de syntaxe. Il apprend les 
 
 
 
-### `poetorflux.html` — Flux continu
+### `index.html` — Flux continu
 
 Génération ininterrompue de poésie en temps réel. Le texte s'écoule caractère par caractère, ligne après ligne.
 
